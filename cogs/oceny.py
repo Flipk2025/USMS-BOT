@@ -119,12 +119,12 @@ class ocena(commands.Cog):
             content = (
                 "``` ```\n"
                 "# OCENA PRACY USSS\n\n"
-                f"### Data: {data} (<t:{timestamp}:R>)\n"
-                f"### Godzina: {godzina}\n"
-                f"### Opis doświadczeń, rekomendacje: {opis}\n"
-                f"### Plusy: {plusy}\n"
-                f"### Minusy: {minusy}\n"
-                f"### Ogólna ocena w skali 0-10: {ocena}\n"
+                f"**Data:** {data} (<t:{timestamp}:R>)\n"
+                f"**Godzina:** {godzina}\n"
+                f"### Opis doświadczeń, rekomendacje:\n {opis}\n"
+                f"### Plusy:\n {plusy}\n"
+                f"### Minusy:\n {minusy}\n"
+                f"## Ogólna ocena w skali 0-10: *{ocena}*\n"
                 "``` ```\n"
                 "||<@&1371145584416915467>||"
             )
