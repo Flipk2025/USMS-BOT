@@ -4,11 +4,11 @@ from discord.ext import commands
 
 # Stałe role
 VIEWER_ROLE_ID = 1371066624622329887  # dostęp tylko, bez pisania
-WRITER_ROLE_ID = 1371138688540610711, 1371066624718802954  # dostęp i pisanie
+WRITER_ROLE_ID = 1371066624676855938  # dostęp i pisanie
 
 # Kanały i kategorie
 TICKET_CHANNEL_ID = 1371066625180041271  # ID kanału z formularzem
-TICKET_CATEGORY_ID = 1371066627277197340  # ID kategorii dla ticketów
+TICKET_CATEGORY_ID = 1371066627277197340 # ID kategorii dla ticketów
 
 # Konfiguracja typów ticketów
 TICKET_TYPES = {
